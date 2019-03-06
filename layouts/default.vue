@@ -79,7 +79,7 @@ export default {
           $nuxt._router.push('/search');  
           break;
         case 'login':
-          this.$fireAuth.signInWithRedirect(this.$googleAuth);         
+          this.$fireAuth.signInWithRedirect(this.$googleAuth);
           break;
         case 'logout':
           this.$fireAuth.signOut().then(() => {
@@ -97,11 +97,11 @@ export default {
   },
   mounted() {
     // init xStorage
-    const session = this.$xStorage.init('xStorage');
-    if (session !== null) {
-      if (session.user !== undefined) {
-        this.$store.user = session.user;
-        this.$store.games.favorites = session.favorites;
+    const storage = this.$xStorage.init('xStorage');
+    if (storage !== null) {
+      if (storage.user !== undefined) {
+        this.$store.user = storage.user;
+        this.$store.games.favorites = storage.favorites;
       }     
       console.log('xStorage initialized');
     }

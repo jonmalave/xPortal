@@ -105,15 +105,13 @@ export default {
         });        
       }
 
-      if (this.$store.user.uid) {
-        this.$xStorage.update({ 
-          key: 'xStorage', 
-          value: { 
-            user: this.$store.user,
-            favorites: this.$store.games.favorites 
-          }
-        });  
-      }
+      this.$xStorage.update({ 
+        key: 'xStorage', 
+        value: { 
+          user: this.$store.user,
+          favorites: this.$store.games.favorites 
+        }
+      });  
     }
   }
 };
