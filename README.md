@@ -2,6 +2,9 @@
 
 > A Content Portal Platform
 
+## Demo
+[Demo](https://xportal.netlify.com)
+
 ## Build Setup
 
 ``` bash
