@@ -1,7 +1,7 @@
 {
   "name": "xportal",
   "version": "1.0.0",
-  "description": "A Content Portal Platform",
+  "description": "A Game Portal Platform",
   "author": "Jon Malave",
   "private": true,
   "scripts": {
