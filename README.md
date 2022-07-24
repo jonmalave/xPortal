@@ -2,9 +2,6 @@
 
 > A Game Portal Platform inspired by Google's YouTube Video-sharing platform. 
 
-## Demo
-[Demo](https://xportal.netlify.com)
-
 ## Build Setup
 
 ``` bash
