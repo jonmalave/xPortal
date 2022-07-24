@@ -1,6 +1,6 @@
 # xPortal
 
-> A Game Portal Platform inspired by Google's YouTube Video-sharing platform. 
+> A Browser-based Game Portal. Design inspired by Google's YouTube Video-sharing platform.
 
 ## Build Setup
 
